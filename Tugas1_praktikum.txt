@@ -1,0 +1,51 @@
+[1]. Dokumen root merujuk pada dokumen utama atau file yang menjadi titik awal atau dasar dalam suatu struktur sistem file atau aplikasi, Dalam konteks yang lebih spesifik seperti:
+1. system file
+2. manajemen konten
+3. web development
+
+[2]. dokumen root pada Apache web server tidak harus selalu terletak di dalam direktori C:\xampp\htdocs
+
+[3]. >> git init : perintah ini digunakan untuk menginisialisasi repositori Git baru pada direktori yang ada.
+
+>> git clone : perintah ini digunakan untuk menduplikasi repositori Git yang sudah ada, baik itu dari repositori lokal atau repositori jarak jauh.
+
+>> git remote : perintah ini digunakan untuk mengelola repositori remote yang terkait dengan repositori lokal.
+
+>> git add : perintah ini digunakan untuk menambahkan perubahan yang sudah kamu buat pada file ke staging area, agar siap untuk di-commit. 
+
+>> git commit : erintah ini digunakan untuk menyimpan perubahan yang sudah ditambahkan ke staging area ke dalam riwayat versi (commit) di repositori lokal.
+
+>> git push : erintah ini digunakan untuk mengirimkan (push) commit dari repositori lokal ke repositori remote seperti GitHub dan GitLab.
+
+>> git checkout : perintah ini digunakan untuk berpindah antara cabang (branch) atau untuk memulihkan file yang diubah menjadi kondisi semula.
+
+[4]. - Penyimpanan dan Repositori
+
+GitHub: Menyediakan repositori tak terbatas untuk proyek publik, dan repositori pribadi untuk paket berbayar.
+
+GitLab: Juga menyediakan repositori tak terbatas baik untuk proyek publik maupun pribadi, dengan banyak alat untuk pengelolaan DevOps.
+
+- Fitur Utama
+
+GitHub:
+Terkenal dengan repositori berbasis komunitas dan proyek sumber terbuka.
+
+Memiliki antarmuka pengguna yang sangat ramah dan mudah digunakan.
+
+GitLab:
+Lebih fokus pada CI/CD yang lebih mendalam dan alat pengembangan perangkat lunak.
+
+GitLab memiliki fitur Integrated DevOps yang memungkinkan pengelolaan proyek mulai dari pengembangan, testing, hingga deploy dalam satu platform.
+
+- Pemilik dan Lisensi
+
+GitHub: GitHub dimiliki oleh Microsoft sejak 2018 dan lebih fokus pada penggunaan pribadi dan tim dengan model bisnis berbasis langganan. GitHub menawarkan repositori publik secara gratis, tetapi untuk repositori pribadi, Anda harus berlangganan untuk mendapatkan lebih banyak fitur.
+
+GitLab: GitLab adalah platform yang bersifat open-source dan dikembangkan oleh GitLab Inc. Ini memungkinkan Anda untuk meng-host GitLab di server pribadi Anda, memberi Anda kendali penuh atas platform tersebut. GitLab menawarkan versi gratis dan versi berbayar dengan fitur tambahan.
+
+[5]. Variabel User: Menyimpan direktori Documents pengguna atau pengaturan aplikasi yang hanya relevan untuk pengguna tersebut.
+
+Variabel System: Menyimpan lokasi program yang terinstal di seluruh sistem atau direktori tempat aplikasi sistem berjalan.
+
+[6]. nilai yang tidak dapat berubah setelah ditetapkan, mereka digunakan di konteks yang sangat berbeda. 
+
