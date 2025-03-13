@@ -50,6 +50,7 @@ $hewan->update(6, "Kucing Anggora");
 echo "<br>";
 
 echo "Destroy - Mengahapus data hewan<br>";
-$hewan->destroy(0);
+$hewan->destroy(0
+);
 echo "<br>";
 ?>
