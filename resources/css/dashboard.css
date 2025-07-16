@@ -1,0 +1,86 @@
+/* Custom Dashboard Styles */
+.fi-section {
+    @apply shadow-sm border border-gray-200 dark:border-gray-700;
+}
+
+.fi-section-header {
+    @apply bg-gray-50 dark:bg-gray-800/50 border-b border-gray-200 dark:border-gray-700;
+}
+
+/* Stats cards enhancements */
+.fi-sta-overview-stat {
+    @apply transition-all duration-200 hover:shadow-md;
+}
+
+.fi-sta-overview-stat-value {
+    @apply text-2xl font-bold;
+}
+
+/* Widget improvements */
+.fi-widget {
+    @apply transition-all duration-200;
+}
+
+.fi-widget:hover {
+    @apply shadow-lg;
+}
+
+/* Table improvements */
+.fi-ta-table {
+    @apply rounded-lg overflow-hidden;
+}
+
+.fi-ta-row:hover {
+    @apply bg-gray-50/50 dark:bg-gray-800/50;
+}
+
+/* Badge improvements */
+.fi-badge {
+    @apply font-medium px-3 py-1 rounded-full text-xs;
+}
+
+/* Responsive grid improvements */
+@media (max-width: 768px) {
+    .fi-widget {
+        @apply mx-2;
+    }
+
+    .fi-section {
+        @apply mx-2 rounded-lg;
+    }
+}
+
+/* Animation for loading states */
+.fi-loading {
+    @apply animate-pulse;
+}
+
+/* Custom gradient backgrounds */
+.gradient-blue {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.gradient-green {
+    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+}
+
+.gradient-purple {
+    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+}
+
+/* Dashboard specific styles */
+.dashboard-card {
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-sm border border-gray-200 dark:border-gray-700 p-6 transition-all duration-200 hover:shadow-md;
+}
+
+.dashboard-stat {
+    @apply text-center p-4 rounded-lg;
+}
+
+.dashboard-stat-value {
+    @apply text-3xl font-bold mb-1;
+}
+
+.dashboard-stat-label {
+    @apply text-sm text-gray-600 dark:text-gray-400;
+}
